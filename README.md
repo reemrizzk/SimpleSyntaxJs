@@ -21,11 +21,17 @@ textarea.simpleSyntax();
 ```
 Configuration Options
 findAndReplace: Enable find and replace functionality. Default is false.
+
 font: The font family to use for the code snippet. Default is 'monospace'.
+
 language: The programming language of the code snippet. Default is 'none'.
+
 lineNumbers: Enable line numbers display. Default is false.
+
 matchBraces: Enable matching braces highlighting. Default is false.
+
 readOnly: Set the code snippet as read-only. Default is false.
+
 theme: The theme for syntax highlighting. Default is 'light'.
 
 Contributing
