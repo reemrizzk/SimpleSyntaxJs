@@ -5,7 +5,7 @@ SimpleSyntaxJs
 
 SimpleSyntaxJs is a lightweight JavaScript library that provides simple and intuitive syntax highlighting for code snippets on webpages.
 
-***Installation***
+# Installation
 
 You can install SimpleSyntax-JS via npm:
 
@@ -27,7 +27,8 @@ HTMLTextAreaElement.prototype.simpleSyntax = function(options) {
 };
 ```
 
-Initializing SimpleSyntaxJs: 
+# Initializing SimpleSyntaxJs: 
+
 Simply call the SimpleSyntax() function on a textarea to apply syntax highlighting to it.
 ```
 textarea.simpleSyntax();
@@ -37,15 +38,31 @@ Configuration Options
 
 **font** : The font family to use for the code snippet. Default is 'monospace'.
 
-**language** : The programming language of the code snippet. Default is 'none'.
+**language** : The programming language of the textarea. Default is 'none'.
 
 **lineNumbers** : Enable line numbers display. Default is false.
 
 **matchBraces** : Enable matching braces highlighting. Default is false.
 
-**readOnly** : Set the code snippet as read-only. Default is false.
+**readOnly** : Set the textarea as read-only. Default is false.
+
+**tabChars** : The chars to type when pressing tab key. Default is '\t'.
 
 **theme** : The theme for syntax highlighting. Default is 'light'.
+
+# Example with Configuration options:
+
+```
+textarea.simpleSyntax({
+    language: 'javascript',
+    theme: 'dark',
+    lineNumbers: true,
+    readOnly: false,
+    matchBraces: true,
+    findAndReplace: true,
+    tabChars: '\t'
+});
+```
 
 Contributing
 Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests here.
