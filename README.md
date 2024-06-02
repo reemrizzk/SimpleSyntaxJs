@@ -55,6 +55,7 @@ textarea { width: 600px; height: 400px; }
 **tabChars** : The chars to type when pressing tab key. Default is '\t'.
 
 **theme** : The theme for syntax highlighting. Default is 'light'.
+
 currently available theme choices: light, dark, nord, solarized-light, solarized-dark
 but you can create a custom css theme and use it if you want!
 
@@ -103,7 +104,7 @@ textarea.insertHtmlTag(htmlTagName);
 To change the value of the textarea programatically:
 ```
 textarea.value = newValue;
-textarea.textChanged(); // Important: you need to call this after changing the textarea's value programatically
+textarea.textChanged(); // Important: you must call this after changing the textarea's value programatically
 ```
 ## License
 SimpleSyntaxJs is licensed under the MIT License. See the LICENSE file for details.
