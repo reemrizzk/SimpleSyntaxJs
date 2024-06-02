@@ -51,7 +51,7 @@ textarea.simpleSyntax();
 
 **theme** : The theme for syntax highlighting. Default is 'light'.
 
-# Example with Configuration options:
+3# Example with Configuration options:
 
 ```
 textarea.simpleSyntax({
@@ -89,11 +89,15 @@ To insert text programatically into the textarea, and if focused, insert text at
 ```
 textarea.insertText(textToInsert);
 ```
-To insert html tag programatically into the textarea, and if part of textarea is selected, wrap it with the tag
+To insert html tag programatically into the textarea, and if part of textarea is selected, wrap it with the tag:
 ```
 textarea.insertHtmlTag(htmlTagName);
 ```
-
+To change the value of the textarea programatically:
+```
+textarea.value = newValue;
+textarea.textChanged(); // Important: you need to call this after changing the textarea's value programatically
+```
 ##License
 SimpleSyntaxJs is licensed under the MIT License. See the LICENSE file for details.
 
