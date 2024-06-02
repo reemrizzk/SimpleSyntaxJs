@@ -12,8 +12,14 @@ You can install SimpleSyntax-JS via npm:
 ```
 npm install simplesyntax-js
 ```
-Or you can download the library and include it directly in your HTML:
 
+Or use CDN inside html:
+```
+<link href="https://unpkg.com/simplesyntax-js@1.0.0/dist/simplesyntax.min.css" rel="stylesheet">
+<script src="https://unpkg.com/simplesyntax-js@1.0.0/dist/simplesyntax.min.js"></script>
+```
+
+Or you can download the library and include it directly in your HTML:
 ```
 <link href="path/to/simplesyntax.min.css" rel="stylesheet">
 <script src="path/to/simplesyntax.min.js"></script>
