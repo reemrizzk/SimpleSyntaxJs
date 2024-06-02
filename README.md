@@ -12,6 +12,12 @@ You can install SimpleSyntax-JS via npm:
 ```
 npm install simplesyntax-js
 ```
+Or you can download the library and include it directly in your HTML:
+
+```
+<link href="path/to/simplesyntax.min.css" rel="stylesheet">
+<script src="path/to/simplesyntax.min.js"></script>
+```
 
 If you installed via NPM, this is how to require the library:
 ```
@@ -21,14 +27,7 @@ HTMLTextAreaElement.prototype.simpleSyntax = function(options) {
 };
 ```
 
-You can include it directly in your HTML:
-
-```
-<link href="path/to/simplesyntax.min.css" rel="stylesheet">
-<script src="path/to/simplesyntax.min.js"></script>
-```
-
-Initialize SimpleSyntaxJs: 
+Initializing SimpleSyntaxJs: 
 Simply call the SimpleSyntax() function on a textarea to apply syntax highlighting to it.
 ```
 textarea.simpleSyntax();
