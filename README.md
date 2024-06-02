@@ -1,9 +1,7 @@
 # SimpleSyntaxJs
 A simple lightweight but powerful syntax highlighting library for textareas
 
-SimpleSyntaxJs
-
-SimpleSyntaxJs is a lightweight JavaScript library that provides simple and intuitive syntax highlighting for code snippets on webpages.
+![Example Image](example.png)
 
 ## Installation
 
