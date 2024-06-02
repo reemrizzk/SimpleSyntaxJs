@@ -34,6 +34,11 @@ Simply call the SimpleSyntax() function on a textarea to apply syntax highlighti
 const textarea = document.getElementById("textarea-id");
 textarea.simpleSyntax();
 ```
+to set the width and height of the textarea, just set it normally with css before initializing simpleSyntax. for example:
+```
+textarea { width: 600px; height: 400px; }
+```
+
 ### Configuration Options
 **findAndReplace** : Enable find and replace functionality. Default is false.
 
@@ -50,8 +55,10 @@ textarea.simpleSyntax();
 **tabChars** : The chars to type when pressing tab key. Default is '\t'.
 
 **theme** : The theme for syntax highlighting. Default is 'light'.
+currently available theme choices: light, dark, nord, solarized-light, solarized-dark
+but you can create a custom css theme and use it if you want!
 
-3# Example with Configuration options:
+## Example with Configuration options:
 
 ```
 textarea.simpleSyntax({
@@ -98,7 +105,7 @@ To change the value of the textarea programatically:
 textarea.value = newValue;
 textarea.textChanged(); // Important: you need to call this after changing the textarea's value programatically
 ```
-##License
+## License
 SimpleSyntaxJs is licensed under the MIT License. See the LICENSE file for details.
 
 Note: If you encounter any issues or have any feedback, please don't hesitate to open an issue. I'd love to hear from you!
