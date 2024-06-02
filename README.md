@@ -65,14 +65,33 @@ textarea.simpleSyntax({
 });
 ```
 ## Functions:
+To zoom in:
 ```
-textarea.zoomIn(); // To zoom in
-textarea.zoomOut(); // To zoom out
-textarea.showFind(); // To show find toolbar, you should first set findAndReplace to true when initializing
-textarea.showReplace(); // To show replace toolbar, you should first set findAndReplace to true when initializing
-textarea.setTheme(theme); // To set the theme of the textarea after initializing
-textarea.insertText(textToInsert); to insert text programatically to the textarea, and if focused, insert text at caret position
-textarea.insertHtmlTag(htmlTagName); to insert html tag programatically to the textarea, and if part of textarea is selected, wrap it with the tag
+textarea.zoomIn();
+```
+To zoom out:
+```
+textarea.zoomOut();
+```
+To show Find toolbar: (you should first set findAndReplace to true when initializing)
+```
+textarea.showFind();
+```
+To show Replace toolbar: (you should first set findAndReplace to true when initializing)
+```
+textarea.showReplace();
+```
+To set the theme of the textarea after initializing:
+```
+textarea.setTheme(theme);
+```
+To insert text programatically into the textarea, and if focused, insert text at caret position:
+```
+textarea.insertText(textToInsert);
+```
+To insert html tag programatically into the textarea, and if part of textarea is selected, wrap it with the tag
+```
+textarea.insertHtmlTag(htmlTagName);
 ```
 
 ##License
