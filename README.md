@@ -5,7 +5,21 @@ SimpleSyntaxJs
 
 SimpleSyntaxJs is a lightweight JavaScript library that provides simple and intuitive syntax highlighting for code snippets on webpages.
 
-Installation
+***Installation***
+
+You can install SimpleSyntax-JS via npm:
+
+```
+npm install simplesyntax-js
+```
+
+If you installed via NPM, this is how to require the library:
+```
+const simpleSyntax = require('simplesyntax-js');
+HTMLTextAreaElement.prototype.simpleSyntax = function(options) {
+    simpleSyntax(this, options);
+};
+```
 
 You can include it directly in your HTML:
 
