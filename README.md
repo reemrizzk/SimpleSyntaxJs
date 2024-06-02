@@ -65,7 +65,7 @@ textarea { width: 600px; height: 400px; }
 currently available theme choices: light, dark, nord, solarized-light, solarized-dark
 but you can create a custom css theme and use it if you want!
 
-**width** : Set the width of the textarea, use this in case the textarea originally had a percentage width.
+**width** : Set the width of the textarea, use this in case the textarea has a percentage width.
 
 ### Example with Configuration options:
 
@@ -74,7 +74,7 @@ textarea.simpleSyntax({
     language: 'javascript',
     theme: 'dark',
     lineNumbers: true,
-    readOnly: false,
+    width: '100%',
     matchBraces: true,
     findAndReplace: true,
     tabChars: '\t'
