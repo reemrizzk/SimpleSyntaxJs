@@ -5,7 +5,7 @@ SimpleSyntaxJs
 
 SimpleSyntaxJs is a lightweight JavaScript library that provides simple and intuitive syntax highlighting for code snippets on webpages.
 
-# Installation
+## Installation
 
 You can install SimpleSyntax-JS via npm:
 
@@ -27,13 +27,14 @@ HTMLTextAreaElement.prototype.simpleSyntax = function(options) {
 };
 ```
 
-# Initializing SimpleSyntaxJs: 
+## Initializing SimpleSyntaxJs: 
 
 Simply call the SimpleSyntax() function on a textarea to apply syntax highlighting to it.
 ```
+const textarea = document.getElementById("textarea-id");
 textarea.simpleSyntax();
 ```
-Configuration Options
+### Configuration Options
 **findAndReplace** : Enable find and replace functionality. Default is false.
 
 **font** : The font family to use for the code snippet. Default is 'monospace'.
@@ -63,11 +64,19 @@ textarea.simpleSyntax({
     tabChars: '\t'
 });
 ```
+## Functions:
+```
+textarea.zoomIn(); // To zoom in
+textarea.zoomOut(); // To zoom out
+textarea.showFind(); // To show find toolbar, you should first set findAndReplace to true when initializing
+textarea.showReplace(); // To show replace toolbar, you should first set findAndReplace to true when initializing
+textarea.setTheme(theme); // To set the theme of the textarea after initializing
+textarea.insertText(textToInsert); to insert text programatically to the textarea, and if focused, insert text at caret position
+textarea.insertHtmlTag(htmlTagName); to insert html tag programatically to the textarea, and if part of textarea is selected, wrap it with the tag
+```
 
-Contributing
-Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests here.
-
-License
+##License
 SimpleSyntaxJs is licensed under the MIT License. See the LICENSE file for details.
 
 Note: If you encounter any issues or have any feedback, please don't hesitate to open an issue. I'd love to hear from you!
+Feel free to submit reviews, bug reports, or feature requests!
