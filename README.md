@@ -20,19 +20,19 @@ Simply call the SimpleSyntax() function on a textarea to apply syntax highlighti
 textarea.simpleSyntax();
 ```
 Configuration Options
-findAndReplace: Enable find and replace functionality. Default is false.
+**findAndReplace** : Enable find and replace functionality. Default is false.
 
-font: The font family to use for the code snippet. Default is 'monospace'.
+**font** : The font family to use for the code snippet. Default is 'monospace'.
 
-language: The programming language of the code snippet. Default is 'none'.
+**language** : The programming language of the code snippet. Default is 'none'.
 
-lineNumbers: Enable line numbers display. Default is false.
+**lineNumbers** : Enable line numbers display. Default is false.
 
-matchBraces: Enable matching braces highlighting. Default is false.
+**matchBraces** : Enable matching braces highlighting. Default is false.
 
-readOnly: Set the code snippet as read-only. Default is false.
+**readOnly** : Set the code snippet as read-only. Default is false.
 
-theme: The theme for syntax highlighting. Default is 'light'.
+**theme** : The theme for syntax highlighting. Default is 'light'.
 
 Contributing
 Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests here.
