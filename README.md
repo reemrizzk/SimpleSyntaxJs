@@ -15,8 +15,8 @@ npm install simplesyntax-js
 
 Or use CDN inside html:
 ```
-<link href="https://unpkg.com/simplesyntax-js@1.0.3/dist/simplesyntax.min.css" rel="stylesheet">
-<script src="https://unpkg.com/simplesyntax-js@1.0.3/dist/simplesyntax.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/simplesyntax-js@latest/dist/simplesyntax.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/simplesyntax-js@latest/dist/simplesyntax.min.js"></script>
 ```
 
 Or you can download the library and include it directly in your HTML:
