@@ -5,7 +5,7 @@ A simple lightweight but powerful syntax highlighting library for textareas
 
 ![Example Image](example.png)
 
-## Installation
+### Installation
 
 You can install SimpleSyntax-JS via npm:
 
@@ -15,8 +15,8 @@ npm install simplesyntax-js
 
 Or use CDN inside html:
 ```
-<link href="https://unpkg.com/simplesyntax-js@1.0.0/dist/simplesyntax.min.css" rel="stylesheet">
-<script src="https://unpkg.com/simplesyntax-js@1.0.0/dist/simplesyntax.min.js"></script>
+<link href="https://unpkg.com/simplesyntax-js@1.0.3/dist/simplesyntax.min.css" rel="stylesheet">
+<script src="https://unpkg.com/simplesyntax-js@1.0.3/dist/simplesyntax.min.js"></script>
 ```
 
 Or you can download the library and include it directly in your HTML:
@@ -33,7 +33,7 @@ HTMLTextAreaElement.prototype.simpleSyntax = function(options) {
 };
 ```
 
-## Initializing SimpleSyntaxJs: 
+### Initializing SimpleSyntaxJs: 
 
 Simply call the SimpleSyntax() function on a textarea to apply syntax highlighting to it.
 ```
@@ -46,6 +46,7 @@ textarea { width: 600px; height: 400px; }
 ```
 
 ### Configuration Options
+
 **findAndReplace** : Enable find and replace functionality. Default is false.
 
 **font** : The font family to use for the code snippet. Default is 'monospace'.
@@ -61,13 +62,12 @@ textarea { width: 600px; height: 400px; }
 **tabChars** : The chars to type when pressing tab key. Default is '\t'.
 
 **theme** : The theme for syntax highlighting. Default is 'light'.
-
-**width** : Set the width of the textarea, use this in case the textarea originally had a percentage width.
-
 currently available theme choices: light, dark, nord, solarized-light, solarized-dark
 but you can create a custom css theme and use it if you want!
 
-## Example with Configuration options:
+**width** : Set the width of the textarea, use this in case the textarea originally had a percentage width.
+
+### Example with Configuration options:
 
 ```
 textarea.simpleSyntax({
@@ -80,7 +80,9 @@ textarea.simpleSyntax({
     tabChars: '\t'
 });
 ```
-## Functions:
+
+### Functions:
+
 To zoom in:
 ```
 textarea.zoomIn();
@@ -114,7 +116,9 @@ To change the value of the textarea programatically:
 textarea.value = newValue;
 textarea.textChanged(); // Important: you must call this after changing the textarea's value programatically
 ```
+
 ## License
+
 SimpleSyntaxJs is licensed under the MIT License. See the LICENSE file for details.
 
 Note: If you encounter any issues or have any feedback, please don't hesitate to open an issue. I'd love to hear from you!
