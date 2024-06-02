@@ -62,6 +62,8 @@ textarea { width: 600px; height: 400px; }
 
 **theme** : The theme for syntax highlighting. Default is 'light'.
 
+**width** : Set the width of the textarea, use this in case the textarea originally had a percentage width.
+
 currently available theme choices: light, dark, nord, solarized-light, solarized-dark
 but you can create a custom css theme and use it if you want!
 
