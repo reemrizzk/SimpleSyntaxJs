@@ -29,7 +29,6 @@ If you installed via NPM, this is how to import the library:
 ```
 import simpleSyntax from 'simplesyntax-js';
 import 'simplesyntax-js/dist/simplesyntax.min.css';
-};
 ```
 
 ### Initializing SimpleSyntaxJs: 
