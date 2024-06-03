@@ -1,6 +1,6 @@
 {
   "name": "simplesyntax-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight yet powerful syntax highlighting library for textareas",
   "main": "index.js",
   "scripts": {
