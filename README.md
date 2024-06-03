@@ -25,11 +25,10 @@ Or you can download the library and include it directly in your HTML:
 <script src="path/to/simplesyntax.min.js"></script>
 ```
 
-If you installed via NPM, this is how to require the library:
+If you installed via NPM, this is how to import the library:
 ```
-const simpleSyntax = require('simplesyntax-js');
-HTMLTextAreaElement.prototype.simpleSyntax = function(options) {
-    simpleSyntax(this, options);
+import simpleSyntax from 'simplesyntax-js';
+import 'simplesyntax-js/dist/simplesyntax.min.css';
 };
 ```
 
