@@ -38,12 +38,14 @@ Simply call the SimpleSyntax() function on a textarea to apply syntax highlighti
 const textarea = document.getElementById("textarea-id");
 textarea.simpleSyntax();
 ```
-to set the width and height of the textarea, just set it normally with css before initializing simpleSyntax. for example:
+to set the width and height of the textarea in pixels, just set it normally with css before initializing simpleSyntax, for example:
 ```
 textarea { width: 600px; height: 400px; }
 ```
 
 ### Configuration Options
+
+**copyButton** : Add a copy button to the top right of the textarea. Default is false.
 
 **findAndReplace** : Enable find and replace functionality. Default is false.
 
