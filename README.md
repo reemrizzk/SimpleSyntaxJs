@@ -8,7 +8,6 @@ A simple lightweight but powerful syntax highlighting library for textareas
 ### Installation
 
 You can install SimpleSyntax-JS via npm:
-
 ```
 npm install simplesyntax-js
 ```
