@@ -32,7 +32,7 @@ import 'simplesyntax-js/dist/simplesyntax.min.css';
 
 ### Initializing SimpleSyntaxJs: 
 
-In the HTML, write a textarea HTML tag wrapped in a div tag, if you want the textarea to not take a whole block, you can for example, set the div's display to inline-block.
+In HTML, write a textarea tag wrapped in a div tag, if you want the textarea to not take a whole block, you can for example, set the div's display to inline-block.
 ```
 <div>
   <textarea id="textarea-id"></textarea>
