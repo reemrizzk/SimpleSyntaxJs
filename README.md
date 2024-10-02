@@ -32,7 +32,13 @@ import 'simplesyntax-js/dist/simplesyntax.min.css';
 
 ### Initializing SimpleSyntaxJs: 
 
-Simply call the SimpleSyntax() function on a textarea to apply syntax highlighting to it.
+In the HTML, write a textarea HTML tag wrapped in a div tag, if you want the textarea to not take a whole block, you can for example, set the div's display to inline-block.
+```
+<div>
+  <textarea id="textarea-id"></textarea>
+</div>
+```
+in Javascript code, simply call the SimpleSyntax() function on a textarea to apply syntax highlighting to it.
 ```
 const textarea = document.getElementById("textarea-id");
 textarea.simpleSyntax();
