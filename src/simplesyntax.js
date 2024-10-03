@@ -515,7 +515,7 @@ HTMLElement.prototype.simpleSyntax = function(options) {
 			text = text.replace(/\"(.*?)\"/g, '<span cltemp="ss-string">"$1"</span>')
 				.replace(/\'(.*?)\'/g, '<span cltemp="ss-string">\'$1\'</span>')
             if (options.language == "php")
-                text = text.replace(/\&lt\;\?php[\s\S]*?\?\&gt\;/g, '<span class="ss-php-tag">$&</span>');
+                text = text.replace(/\&lt\;\?php[\s\S]*?(?:\?\&gt;|$)/g, '<span class="ss-php-tag">$&</span>');
     
 
 			text = text.replace(/&lt;([^&]*)&gt;/g, function(match, captureGroup) {
