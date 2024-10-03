@@ -1,4 +1,4 @@
-# SimpleSyntaxJs (v1.0.4)
+# SimpleSyntaxJs (v1.0.5)
 A simple lightweight but powerful syntax highlighting library for textareas
 
 **SimpleSyntaxJs textarea appearance example:**
