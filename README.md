@@ -43,9 +43,9 @@ in Javascript code, simply call the SimpleSyntax() function on a textarea to app
 const textarea = document.getElementById("textarea-id");
 textarea.simpleSyntax();
 ```
-to set the width and height of the textarea in pixels, just set it normally with css before initializing simpleSyntax, for example:
+You need to set the height of the textarea in pixels, inside css before initializing simpleSyntax, for example:
 ```
-textarea { width: 600px; height: 400px; }
+textarea { height: 400px; }
 ```
 
 ### Configuration Options
